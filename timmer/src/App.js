@@ -1,17 +1,10 @@
-import React from 'react'
-import Timmer from './pages/Timmer'
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
-import CountdownTimer from './pages/Timmer'; 
+import React from 'react';
+import CountdownTimer from './Timmer'; 
 
 function App() {
   return (
     <div>
-    <Router>
-    <Routes>
-      <Route path="/timmer" element={<Timmer />} />
-    </Routes>
-    </Router>
-    <CountdownTimer />
+      <CountdownTimer />
     </div>
   );
 }

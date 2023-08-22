@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import molru from '../assets/molru.gif'
+import molru from './assets/molru.gif'
 import './Timmer.css'
 
 const CountdownTimer = ({ hours = 18 }) => {
