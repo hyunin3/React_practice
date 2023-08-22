@@ -1,0 +1,41 @@
+@font-face {
+  font-family: "MaplestoryOTFBold";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.1/MaplestoryOTFBold.woff")
+    format("woff");
+}
+
+@font-face {
+  font-family: "MaplestoryOTFLight";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.1/MaplestoryOTFLight.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.countdownContainer {
+  background: #AEDFF7; 
+  border-radius: 10px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  padding: 20px;
+  text-align: center; 
+  font-family: "MaplestoryOTFBold";
+  margin: 0 auto; 
+  width: 300px;
+}
+
+.timerText {
+  font-size: 24px; 
+  color: #333; 
+  margin-top: 20px; 
+  font-family: "MaplestoryOTFLight";
+ 
+}
+
+.profileimg {
+  object-fit: fill;
+  border-radius: 10%;
+  border: 0.5px solid rgb(230, 230, 230);
+  height: auto;
+  width: 40vh;
+  background-color: white;
+}
