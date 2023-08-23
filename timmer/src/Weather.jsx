@@ -3,8 +3,8 @@ import './Weather.css'
 
 const SeoulWeather = () => {
   const [weatherData, setWeatherData] = useState(null);
-  // const API_KEY = `${process.env.REACT_APP_OPENWEATHER_REST_API_KEY}`;
-  const API_KEY = '1639737e0b276290e7fb79221c8f279c'
+  const API_KEY = `${process.env.REACT_APP_OPENWEATHER_REST_API_KEY}`;
+  
 
   useEffect(() => {
     fetch(`https://api.openweathermap.org/data/2.5/weather?q=Seoul&appid=${API_KEY}&lang=kr&units=metric`)
